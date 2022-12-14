@@ -11,5 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install Dependencies
+        run: yarn
+
       - name: Run Action Script
         run: yarn sub1 run action
