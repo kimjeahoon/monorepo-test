@@ -1,0 +1,15 @@
+name: Github-Action-Test
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "packages/sub1/**"
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run Action Script
+        run: npm run action
