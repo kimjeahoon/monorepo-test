@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div>
-      sub module12312312 &nbsp; <span>{count}</span>
+      sub module1 &nbsp; <span>{count}</span>
     </div>
   );
 }
