@@ -1,0 +1,15 @@
+{
+  "name": "monorepo-test",
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "sub1": "yarn workspace sub1",
+    "sub2": "yarn workspace sub2",
+    "sub3": "yarn workspace sub3"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
